@@ -14,6 +14,18 @@ As you can guess, accurately predicting future outcomes has applications across 
 
 Broadly speaking, it is a form of predictive modelling technique which tells us the relationship between the dependent (target variable) and independent variables (predictors).
 
+Linear regression 
+- Process of estimating relationship between variables
+- Explains change in dependent variable with change in predictors
+- Uses: forecasing and prediction
+- Shows correlation and causation. Coreelation does not imply causation
+- A form of parametric regression. Data follows fixed parameters.
+- Regression guarantees interpolation and not extrapolation.
+
+In simple terms, a parametric model can be described using a finite number of parameters. For e.g., a linear regression model built using n independent variables will have exactly n ‘parameters’ (i.e., n coefficients). The entire model can be described using these n parameters.
+
+Interpolation means using the model to predict the value of a dependent variable on the independent values that lie within the range of data you already have. Extrapolation, on the other hand, means predicting the dependent variable on the independent values that lie outside the range of the data the model was built on.
+ 
 Two types of linear regression :
 - Simple linear regression
 - Multiple linear regression
